@@ -4,8 +4,7 @@ import { HERO_BACKGROUND } from "@/constants";
 import FilterSection from "@/components/filters/FilterSection";
 import PropertyCard from "@/components/listings/PropertyCard";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
-import './input.css';
-import './styles/globals.css'
+
 
 
 const HomePage = () => {

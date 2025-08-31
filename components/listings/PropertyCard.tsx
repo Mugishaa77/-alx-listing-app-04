@@ -20,7 +20,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
         </p>
         <div className="flex items-center justify-between mt-2">
           <span className="text-red-500 font-bold text-xl">
-            ${property.price}
+            ${property.price.toLocaleString()}
           </span>
           <span className="text-yellow-500 text-sm">⭐ {property.rating}</span>
         </div>
